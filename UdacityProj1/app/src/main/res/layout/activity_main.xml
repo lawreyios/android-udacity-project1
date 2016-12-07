@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lawrey.udacityproj1.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/gudetamacafe"
+        android:layout_alignParentTop="true"
+        android:id="@+id/mainImage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="GUDETAMA CAFE" />
+
+    <TextView
+        android:id="@+id/descriptionTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainImage"
+        android:text="Description"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionTitleTV"
+        android:text="The story goes that Gudetama had hopped on a plane to our sunny island one day and stumbled upon a food playground with a beautiful garden – a place that seems to have started him cooking delicious dishes."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/locationTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionTV"
+        android:text="Location"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+     />
+
+    <TextView
+        android:id="@+id/locationTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationTitleTV"
+        android:text="3 Temasek Boulevard, Suntec City Mall #01-361 Singapore"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/contactTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationTV"
+        android:text="Contact"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/contactTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactTitleTV"
+        android:text="+65 8233 8461"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/hoursTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactTV"
+        android:text="Opening Hours"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/hoursTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hoursTitleTV"
+        android:text="Mon - Sun\n9:00AM - 10:00PM"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        />
+
+</RelativeLayout>
+
+</ScrollView>
